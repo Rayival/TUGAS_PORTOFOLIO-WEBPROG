@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body#rayival_body {
+    background-color: #ffffff;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+.rayival_container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#rayival_navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.rayival_nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+#rayival_logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f766e;
+}
+
+#rayival_menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+#rayival_menu li a {
+    text-decoration: none;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#rayival_menu li a:hover {
+    color: #0f766e;
+}
+
+#rayival_hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f766e 100%);
+    padding: 65px 0 50px 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.rayival_hero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rayival_hero_text {
+    width: 55%;
+}
+
+.rayival_sub {
+    font-size: 15px;
+    color: #94a3b8;
+}
+
+#rayival_title {
+    font-size: 34px;
+    color: #ffffff;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.rayival_job {
+    font-size: 14px;
+    color: #2dd4bf;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.rayival_desc {
+    font-size: 14px;
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.rayival_buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.rayival_btn {
+    padding: 10px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.rayival_btn_blue {
+    background-color: #0f766e;
+    color: #ffffff;
+    border: 1px solid #0f766e;
+}
+
+.rayival_btn_blue:hover {
+    background-color: #115e59;
+}
+
+.rayival_btn_outline {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    border: 1px solid #475569;
+}
+
+.rayival_btn_outline:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.rayival_hero_img {
+    width: 40%;
+    text-align: right;
+}
+
+.rayival_hero_img img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.3));
+}
+
+.rayival_heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #0f172a;
+    border-left: 4px solid #0f766e;
+    padding-left: 10px;
+}
+
+#rayival_about {
+    padding: 55px 0;
+}
+
+.rayival_about_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rayival_about_content {
+    width: 70%;
+}
+
+.rayival_about_content p {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 20px;
+}
+
+.rayival_badges {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.rayival_badge {
+    background-color: #f1f5f9;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #334155;
+    border: 1px solid #e2e8f0;
+}
+
+.rayival_badge i {
+    color: #0f766e;
+    margin-right: 5px;
+}
+
+.rayival_about_img {
+    width: 25%;
+    text-align: right;
+}
+
+.rayival_about_img img {
+    width: 160px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#rayival_skills {
+    background-color: #f8fafc;
+    padding: 55px 0;
+}
+
+.rayival_skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.rayival_skill_box {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #1e293b;
+    width: calc(20% - 10px); 
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.rayival_skill_box i {
+    color: #0f766e;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+#rayival_projects {
+    padding: 55px 0;
+}
+
+.rayival_projects_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.rayival_card {
+    width: 24%;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.rayival_card img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+.rayival_card_body {
+    padding: 14px;
+}
+
+.rayival_card_body h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #0f172a;
+}
+
+.rayival_card_body p {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+
+.rayival_card_body a {
+    text-decoration: none;
+    color: #0f766e;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rayival_card_body a:hover {
+    text-decoration: underline;
+}
+
+#rayival_footer {
+    background-color: #0b1329;
+    color: #ffffff;
+    padding: 25px 0 15px 0;
+}
+
+.rayival_footer_top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 20px;
+    gap: 25px;
+}
+
+.rayival_footer_brand h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.rayival_footer_brand p {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 2px;
+}
+
+.rayival_footer_divider {
+    width: 1px;
+    height: 35px;
+    background-color: #334155;
+}
+
+.rayival_footer_contacts {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.rayival_footer_contacts p {
+    font-size: 12px;
+    color: #cbd5e1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rayival_footer_contacts i {
+    color: #2dd4bf;
+    font-size: 13px;
+}
+
+.rayival_copy {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 12px;
+}
